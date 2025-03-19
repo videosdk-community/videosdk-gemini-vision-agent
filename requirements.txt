@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+videosdk
+numpy
+librosa
+pillow
+google-generativeai
+aiohttp
+openai
