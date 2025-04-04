@@ -15,6 +15,9 @@ import librosa
 import numpy as np
 import asyncio
 from PIL import Image
+import dotenv
+
+dotenv.load_dotenv()
 
 openai_api_key=os.getenv("OPENAI_API_KEY")
 gemini_api_key=os.getenv("GEMINI_API_KEY")
