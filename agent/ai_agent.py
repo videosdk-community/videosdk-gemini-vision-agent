@@ -78,7 +78,7 @@ class AIAgent:
         )
         
         self.frame_queue: deque = deque(maxlen=1)
-        
+         
         
     async def handle_function_call(self, function_call):
         if function_call.name == "analyze_screen":
