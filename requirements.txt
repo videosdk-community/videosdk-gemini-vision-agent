@@ -7,3 +7,6 @@ pillow
 google-generativeai
 aiohttp
 openai
+pyee==9.1.1
+grpcio-tools
+python-dotenv

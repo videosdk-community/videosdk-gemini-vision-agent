@@ -8,6 +8,8 @@ from rtc.videosdk.participant_handler import ParticipantHandler  # Event handler
 from agent.audio_stream_track import CustomAudioStreamTrack  # Custom audio track for the AI agent
 from intelligence.openai.openai_intelligence import OpenAIIntelligence  # OpenAI integration
 from utils.struct.openai import InputAudioTranscription  # Structure for audio transcription
+from dotenv import load_dotenv
+load_dotenv()
 
 import google.generativeai as genai  # Google's Gemini API for image analysis
 
